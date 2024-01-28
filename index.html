@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>My tabs</title>
+  </head>
+  <body>
+    <div class="tabs">
+      <nav class="tabs__wrapper" role="tablist" aria-label="Tabs">
+        <a
+          class="tabs__tab tabs__tab_active"
+          id="tab1"
+          role="tab"
+          tabindex="0"
+          aria-selected="true"
+          >Tab_1</a
+        >
+        <a
+          class="tabs__tab"
+          id="tab2"
+          aria-selected="true"
+          role="tab"
+          tabindex="-1"
+          >Tab_2</a
+        >
+        <a
+          class="tabs__tab"
+          id="tab3"
+          aria-selected="true"
+          role="tab"
+          tabindex="-1"
+          >Tab_3</a
+        >
+      </nav>
+      <article class="tabs__content" role="main">
+        <section role="tabpanel" tabindex="0">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non omnis
+          adipisci quisquam sint, similique molestias laborum quae illo totam
+          qui possimus autem sunt blanditiis asperiores odio molestiae delectus
+          aliquid recusandae?
+        </section>
+      </article>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
